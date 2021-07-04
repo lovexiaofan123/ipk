@@ -22,7 +22,7 @@ svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/naiveproxy
 svn co https://github.com/fw876/helloworld/trunk/shadowsocks-rust package/shadowsocks-rust
 svn co https://github.com/fw876/helloworld/trunk/v2ray-plugin package/v2ray-plugin
 svn co https://github.com/fw876/helloworld/trunk/shadowsocksr-libev package/shadowsocksr-libev
-svn co https://github.com/project-lede/luci-app-godproxy/ package/luci-app-godproxy
+svn co https://github.com/project-lede/trunk/luci-app-godproxy package/luci-app-godproxy
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 
 sed -i 's/LUCI_DEPENDS.*/LUCI_DEPENDS:=@TARGET_armvirt_64/g' package/lean/luci-app-cpufreq/Makefile
